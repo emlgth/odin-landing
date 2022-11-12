@@ -9,7 +9,8 @@ body {
 /* will contain all divs */
 .header,
 .title,
-.information {
+.information,
+.quote {
   width: 80%;
   margin: auto;
   padding: 20px;
@@ -45,7 +46,7 @@ body {
 
 h2 {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: 900;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -108,4 +109,28 @@ button {
   border: solid 4px #3882f6;
   border-radius: 12px;
   margin-bottom: -14px;
+}
+
+.quote {
+  height: 350px;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote p {
+  width: 860px;
+}
+
+.thor {
+  margin: -40px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: normal;
 }
