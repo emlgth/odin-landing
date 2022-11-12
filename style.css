@@ -11,15 +11,17 @@ body {
 .title,
 .information,
 .quote,
-.action-parent {
+.action-parent,
+.footer {
   width: 80%;
   margin: auto;
   padding: 20px;
 }
 
-/* will contain top two divs */
+/* will contain top two and footer divs */
 .header,
-.title {
+.title,
+.footer {
   background-color: #1F2937;
   display: flex;
 }
@@ -169,4 +171,12 @@ button {
 .action button {
   border: solid 2px #f9faf8;
   border-radius: 9px;
+}
+
+.footer {
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 18px;
 }
